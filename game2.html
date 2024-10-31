@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Guess the capital city</title>
+</head>
+<header>Play a game and guess the capital city or search for information about countries by name</header>
+<body>
+    <button class="menu-button" onclick="toggleMenu()">☰ Menu</button> 
+    <div class="side-menu" id="sideMenu"> 
+        <a href="#" class="close-button" onclick="toggleMenu()">&times;</a>
+        <nav>
+            <a href="./index.html">Guess the capital city game</a>
+            <a href="./game2.html">Search for information about countries by name</a>
+            <a href="./game3.html">About</a>
+        </nav>
+    </div>
+    <main>
+        <div id="container">
+            <div>
+                <h1>Search for information about countries by name</h1>
+            </div>
+            <div class="input-button-container">
+                <div>
+                    <input id="input" type="text" placeholder="Name a country"></div>
+                <button id="button">Search</button>
+            </div>
+            <div id="output-container">
+                <div id="outputCountryName"></div>
+                <div id="outputCountryCapital"></div>
+                <div id="outputCountryRegion"></div>
+                <div id="outputCountryPopulation"></div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/functions2.js"></script>
+</body>
+</html>

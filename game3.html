@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Guess the capital city</title>
+</head>
+<header>Play a game and guess the capital city or search for information about countries by name</header>
+<body>
+    <button class="menu-button" onclick="toggleMenu()">☰ Menu</button> 
+    <div class="side-menu" id="sideMenu"> 
+        <a href="#" class="close-button" onclick="toggleMenu()">&times;</a>
+        <nav>
+            <a href="./index.html">Guess the capital city game</a>
+            <a href="./game2.html">Search for information about countries by name</a>
+            <a href="./game3.html">About</a>
+        </nav>
+    </div>
+    <main>
+        <div id="container">
+            <div>
+                <h1>About</h1>
+                <p>This website was created as part of a school assignment to explore country-related information. </p>
+                <p>It utilizes the free REST Countries API for data retrieval, and the illustration is a royalty-free image sourced from Pixabay.</p>
+                <p>To learn more about the API, visit <a href="https://restcountries.com/" target="_blank">restcountries.com</a>.</p>
+            </div>
+
+
+        </div>
+    </main>
+    <script src="./js/functions2.js"></script>
+</body>
+</html>
